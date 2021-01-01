@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Ore Prices</title>
+        <script type="text/javascript" src="oreinfo.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+
+        $(document).ready(function(){
+            GetMineralPrices();
+        });
+        
+        </script>
+    </head>
+    <body>
+        <table style="float:left;margin-right: 50;display:none">
+            <thead>
+                <tr>
+                    <td>Mineral</td>
+                    <td>Price</td>
+                </tr>
+            </thead>
+            <tbody id="minerals">
+
+            </tbody>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Ore</td>
+                    <td>Price</td>
+                </tr>
+            </thead>
+            <tbody id="ores">
+
+            </tbody>
+        </table>
+    </body>
+</html>

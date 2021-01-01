@@ -1,40 +1,46 @@
 <html>
-    <head>
-        <title>Ore Prices</title>
-        <script type="text/javascript" src="oreinfo.js"></script>
-        <script type="text/javascript" src="main.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script type="text/javascript">
+<head>
+    <title>Ore Prices</title>
+    <script type="text/javascript" src="oreinfo.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-        $(document).ready(function(){
-            GetMineralPrices();
-        });
-        
-        </script>
-    </head>
-    <body>
-        <table style="float:left;margin-right: 50;display:none">
-            <thead>
-                <tr>
-                    <td>Mineral</td>
-                    <td>Price</td>
-                </tr>
-            </thead>
-            <tbody id="minerals">
+</head>
+<body>
+<section class="container">
+<table class="table table-striped">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Mineral</th>
+        <th scope="col">Price</th>
+    </tr>
+    </thead>
+    <tbody id="minerals">
 
-            </tbody>
-        </table>
+    </tbody>
+</table>
+    <section class="container">
+</section>
+<table class="table table-striped">
+    <thead class="thead-dark">
+    <tr>
+        <th>Ore</th>
+        <th>Price</td>
+    </tr>
+    </thead>
+    <tbody id="ores">
 
-        <table>
-            <thead>
-                <tr>
-                    <td>Ore</td>
-                    <td>Price</td>
-                </tr>
-            </thead>
-            <tbody id="ores">
+    </tbody>
+</table>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script type="text/javascript">
 
-            </tbody>
-        </table>
-    </body>
+    $(document).ready(function(){
+        GetMineralPrices();
+    });
+
+</script>
+</body>
 </html>

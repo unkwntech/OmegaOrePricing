@@ -57,9 +57,8 @@ function GetOrePrices()
             row.append($("<td></td>").append(OrePrice));
             $("#ores").append(row);
         }
-        $("#ores").append($("<tr><td></td><td></td></tr>"));
-        $("#ores").append($("<tr><td></td><td></td></tr>"));
-        $("#ores").append($("<tr><td></td><td></td></tr>"));
+        $("#ores").append($("<tr><td class='separator'></td><td class='separator'></td></tr>"));
+        $("#ores").append($("<tr><td class='zero'></td><td class='zero'></td></tr>"));
     }
 }
 
@@ -72,6 +71,6 @@ function UpdateMineralsTable()
         row.append($("<td></td>").append(MineralArray[i].Name));
         row.append($("<td></td>").append(MineralArray[i].Price));
         $("#minerals").append(row);
-        
+
     }
 }

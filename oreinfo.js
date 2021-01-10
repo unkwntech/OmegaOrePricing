@@ -481,8 +481,8 @@ let Ore = [
         Name: "Pollucite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Pollucite", Bonus: 1.15},
-            {Name: "Shining Pollucite", Bonus: 2}
+            {Name: "Replete  Pollucite", Bonus: 1.15},
+            {Name: "Glowing Pollucite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Hydrocarbons, QTY: 0.15},
@@ -495,8 +495,8 @@ let Ore = [
         Name: "Carnotite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Carnotite", Bonus: 1.15},
-            {Name: "Shining Carnotite", Bonus: 2}
+            {Name: "Replete Carnotite", Bonus: 1.15},
+            {Name: "Glowing Carnotite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Atmospheric, QTY: 0.15},
@@ -509,8 +509,8 @@ let Ore = [
         Name: "Cinnabar",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Cinnabar", Bonus: 1.15},
-            {Name: "Shining Cinnabar", Bonus: 2}
+            {Name: "Replete Cinnabar", Bonus: 1.15},
+            {Name: "Glowing Cinnabar", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Evaporite, QTY: 0.15},
@@ -523,8 +523,8 @@ let Ore = [
         Name: "Zircon",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Zircon", Bonus: 1.15},
-            {Name: "Shining Zircon", Bonus: 2}
+            {Name: "Replete Zircon", Bonus: 1.15},
+            {Name: "Glowing Zircon", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Silicates, QTY: 0.15},
@@ -537,8 +537,8 @@ let Ore = [
         Name: "Sperrylite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Sperrylite", Bonus: 1.15},
-            {Name: "Shining Sperrylite", Bonus: 2}
+            {Name: "Lavish Sperrylite", Bonus: 1.15},
+            {Name: "Shimmering Sperrylite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Evaporite, QTY: 0.1},
@@ -550,8 +550,8 @@ let Ore = [
         Name: "Otavite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Otavite", Bonus: 1.15},
-            {Name: "Shining Otavite", Bonus: 2}
+            {Name: "Lavish Otavite", Bonus: 1.15},
+            {Name: "Shimmering Otavite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Atmospheric, QTY: 0.1},
@@ -563,8 +563,8 @@ let Ore = [
         Name: "Chromite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Chromite", Bonus: 1.15},
-            {Name: "Shining Chromite", Bonus: 2}
+            {Name: "Lavish Chromite", Bonus: 1.15},
+            {Name: "Shimmering Chromite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Hydrocarbons, QTY: 0.1},
@@ -576,8 +576,8 @@ let Ore = [
         Name: "Zeolites",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Zeolites", Bonus: 1.15},
-            {Name: "Shining Zeolites", Bonus: 2}
+            {Name: "Brimful Zeolites", Bonus: 1.15},
+            {Name: "Glistening Zeolites", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Hydrocarbons, QTY: 0.1},
@@ -589,8 +589,8 @@ let Ore = [
         Name: "Scheelite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Scheelite", Bonus: 1.15},
-            {Name: "Shining Scheelite", Bonus: 2}
+            {Name: "Copious Scheelite", Bonus: 1.15},
+            {Name: "Twinkling Scheelite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Tungsten, QTY: 0.4},
@@ -601,8 +601,8 @@ let Ore = [
         Name: "Vanadinite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Vanadinite", Bonus: 1.15},
-            {Name: "Shining Vanadinite", Bonus: 2}
+            {Name: "Lavish Vanadinite", Bonus: 1.15},
+            {Name: "Shimmering Vanadinite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Silicates, QTY: 0.1},
@@ -614,8 +614,8 @@ let Ore = [
         Name: "Sylvite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Sylvite", Bonus: 1.15},
-            {Name: "Shining Sylvite", Bonus: 2}
+            {Name: "Brimful Sylvite", Bonus: 1.15},
+            {Name: "Glistening Sylvite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Evaporite, QTY: 0.65},
@@ -627,8 +627,8 @@ let Ore = [
         Name: "Titanite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Titanite", Bonus: 1.15},
-            {Name: "Shining Titanite", Bonus: 2}
+            {Name: "Copious Titanite", Bonus: 1.15},
+            {Name: "Twinkling Titanite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Titanium, QTY: 0.4},
@@ -639,8 +639,8 @@ let Ore = [
         Name: "Bitumens",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Bitumens", Bonus: 1.15},
-            {Name: "Shining Bitumens", Bonus: 2}
+            {Name: "Brimful Bitumens", Bonus: 1.15},
+            {Name: "Glistening Bitumens", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Hydrocarbons, QTY: 0.65},
@@ -653,8 +653,8 @@ let Ore = [
         Name: "Coesite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Coesite", Bonus: 1.15},
-            {Name: "Shining Coesite", Bonus: 2}
+            {Name: "Brimful Coesite", Bonus: 1.15},
+            {Name: "Glistening Coesite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Silicates, QTY: 0.65},
@@ -667,8 +667,8 @@ let Ore = [
         Name: "Cobaltite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Cobaltite", Bonus: 1.15},
-            {Name: "Shining Cobaltite", Bonus: 2}
+            {Name: "Copious Cobaltite", Bonus: 1.15},
+            {Name: "Twinkling Cobaltite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Cobalt, QTY: 0.4},
@@ -679,8 +679,8 @@ let Ore = [
         Name: "Euxenite",
         BuybackType: Buybacks.MoonOre,
         Varients: [
-            {Name: "Bountiful Euxenite", Bonus: 1.15},
-            {Name: "Shining Euxenite", Bonus: 2}
+            {Name: "Copious Euxenite", Bonus: 1.15},
+            {Name: "Twinkling Euxenite", Bonus: 2}
         ],
         Refined: [
             {Type: Minerals.Scandium, QTY: 0.4},
